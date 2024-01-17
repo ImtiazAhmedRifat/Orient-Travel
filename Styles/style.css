@@ -40,6 +40,9 @@
  nav li a{
    text-decoration: none;
  }
+ .orange{
+  color: #FF5400;
+ }
  main{
 max-width: 1440px;
 margin: 0 auto;
@@ -116,12 +119,104 @@ line-height: normal;
    font-weight: 800;
    line-height: normal;
  }
- .card-title-three{
+ .card-title-three {
    color: #131318;
    text-align: center;
     font-size: 24px;
    font-style: normal;
    font-weight: 800;
    line-height: normal;
+   margin-top: 10px;
  }
- 
+ .card-title-twice img{
+  width: 64px;
+height: 64px;
+
+ }
+ .card-title-three img{
+  width: 44px;
+height: 44px;
+
+ }
+ .card-stats{
+  width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+
+ }
+.card-stats-two{
+  width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.card-stats-three{
+  width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+text-align: center;
+}
+.form-and-discount{
+  border: 2px solid tomato;
+  display: flex;
+  gap: 0;
+}
+.form-link {
+  width: 1440px;
+height: 6940px;
+background: #FFF;
+}
+.NewsLetter{
+  color: #131318;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.form-desc{
+  color: #5A5A5D;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+footer{
+  width: 1440px;
+height: 502px;
+flex-shrink: 0;
+text-align: center;
+background: rgba(19, 19, 24, 0.05);
+}
+.footer-title{ text-align: center;
+  color: var(--Dark-01, #131318);
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 150px;
+}
+.logo-social{
+  display: flex;
+   
+  justify-content: space-evenly;
+  margin-top: 50px;
+  width: 174.322px;
+height: 24px;
+
+
+}
+@media  screen and (max-width :600px) {
+  header{
+    color: #131318;
+font-family: Mulish;
+font-size: 21.543px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+}
