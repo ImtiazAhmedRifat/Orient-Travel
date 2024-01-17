@@ -1,0 +1,47 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+
+ *{
+    font-family: 'Mulish', sans-serif;
+ }
+ header{
+    background: #FFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+
+    
+ }
+ .Travel-head{
+    color: #FF5400;
+ }
+ header h3{
+    color: #131318;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+ }
+ nav > ul{
+    display: flex;
+    align-items: center;
+ }
+ nav li{
+    list-style: none;
+    margin-right: 44px;
+ }
+ .banner{
+   width: 1170px;
+   height: 500px;
+   text-align: center;
+   background-image:url(/Images/Group\ 13\ \(1\)\ \(1\).png)
+
+
+
+ }
