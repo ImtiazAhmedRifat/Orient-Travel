@@ -12,6 +12,10 @@
    
     
  }
+ .header-title{
+  display: flex;
+  align-items: center;
+ }
  .Travel-head{
     color: #FF5400;
  }
@@ -162,13 +166,21 @@ background: rgba(233, 68, 68, 0.05);
 text-align: center;
 }
 .form-and-discount{
-  border: 2px solid tomato;
-  display: flex;
-  gap: 0;
+ 
+  display: flex; 
+  justify-content: center;
+  /* gap: 20px; */
+  margin-top: 50px;
+}
+.form-desc-button{ 
+  padding-left: 135px;
+  border-radius: 16px;
+border: 1px solid #FF5400;
 }
 .form-link {
-  width: 1440px;
-height: 6940px;
+  width: 474px;
+  height: 250px;
+  
 background: #FFF;
 }
 .NewsLetter{
@@ -186,13 +198,16 @@ font-weight: 400;
 line-height: 26px; /* 162.5% */
 }
 footer{
+  margin: 0 auto;
   width: 1440px;
 height: 502px;
 flex-shrink: 0;
 text-align: center;
 background: rgba(19, 19, 24, 0.05);
 }
-.footer-title{ text-align: center;
+.footer-title{ 
+  display: flex;
+  justify-content: center;
   color: var(--Dark-01, #131318);
 font-size: 32px;
 font-style: normal;
@@ -202,13 +217,25 @@ padding-top: 150px;
 }
 .logo-social{
   display: flex;
-   
-  justify-content: space-evenly;
+   gap:10px;
+  justify-content: center;
   margin-top: 50px;
-  width: 174.322px;
-height: 24px;
+  /* width: 174.322px; */
+/* height: 24px; */
 
 
+
+}
+.footer Text{
+  color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.logo-social img{
+  height:24px;
 }
 @media  screen and (max-width :600px) {
   header{
