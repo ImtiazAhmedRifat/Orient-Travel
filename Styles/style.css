@@ -97,6 +97,21 @@ line-height: normal;
  .destination{
    text-align: center;
  }
+ .first-row{
+  position: relative;
+ }
+ .Maldives{
+  color: #FFF;
+text-align: center;
+position: absolute;
+/* top: 50%; */
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+ }
 
  .choose{
    color: #131318;
@@ -172,6 +187,9 @@ text-align: center;
   /* gap: 20px; */
   margin-top: 50px;
 }
+.banner-image-container{
+  position: relative;
+}
 .form-desc-button{ 
   padding-left: 135px;
   border-radius: 16px;
@@ -226,6 +244,22 @@ padding-top: 150px;
 
 
 }
+.discount{
+  width: 324px;
+  height: 120px;
+  border-radius: 16px;
+  font-size: 24px;
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+  background: #FF5400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF
+  
+
+}
 .footer Text{
   color: #131318;
 font-family: Inter;
@@ -237,13 +271,53 @@ line-height: normal;
 .logo-social img{
   height:24px;
 }
+#Name{
+  flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+button{
+  border-radius: 8px;
+background: #FF5400;
+}
 @media  screen and (max-width :600px) {
   header{
-    color: #131318;
-font-family: Mulish;
-font-size: 21.543px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
   }
+  nav > ul{
+    display: none;
+  }
+.banner{
+  width: 100%;
+  height: 100%;
+}
+.text-desc{
+  color: grey;
+}
+.form-content{
+  display: flex;
+  flex-direction: column;
+}
+.card-container{
+  display: flex;
+  flex-direction: column;
+  
+}
+.card-title-twice{
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+}
+.form-and-discount{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+footer{
+ display: inline;
+}
 }
