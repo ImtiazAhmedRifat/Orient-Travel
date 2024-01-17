@@ -90,17 +90,7 @@ line-height: normal;
  .destination{
    text-align: center;
  }
- .first-image{
-   position: relative;
-   text-align: center;
-   color: #FFF;
- }
- .Maldives{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
- }
+
  .choose{
    color: #131318;
 text-align: center;
@@ -109,3 +99,29 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
  }
+ .card-container{
+   display: flex;
+   justify-content: space-between;
+   gap: 350px;
+
+ }
+ .card-stats-three{
+   text-align: center;
+ }
+ .card-title-twice{
+   color: #131318;
+   text-align: center;
+    font-size: 24px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+ }
+ .card-title-three{
+   color: #131318;
+   text-align: center;
+    font-size: 24px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+ }
+ 
